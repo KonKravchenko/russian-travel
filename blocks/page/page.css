@@ -1,0 +1,30 @@
+.page {
+  box-sizing: border-box;
+  background-color: rgba(42, 44, 47, 1);
+  margin: 0 auto;
+  padding: 28px 48px 24px;
+  font-family: 'Inter', Arial, sans-serif;
+  flex-direction: column;
+  color: white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  justify-self: center;
+}
+
+@media screen and (min-width:1px) and (max-width: 1024px) {
+  .page {
+    padding: 28px 0 24px;
+  }
+}

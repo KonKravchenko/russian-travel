@@ -1,0 +1,16 @@
+.content {
+  grid-area: content;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
+  grid-template-rows: repeat(5, minmax(min-content, max-content));
+  grid-template-areas:
+    ". lead ."
+    ". intro ."
+    "photo-grid photo-grid photo-grid"
+    ". places ."
+    "cover cover cover";
+}
+

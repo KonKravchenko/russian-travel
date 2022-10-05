@@ -1,0 +1,22 @@
+.cover {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  grid-area: cover;
+  display: grid;
+  justify-self: center;
+  width: min(100%, 1148px);
+  height: calc((100vw - 96px) / 1.6);
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    height: 740px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    height: calc(100vw / 1.6);
+  }
+}
