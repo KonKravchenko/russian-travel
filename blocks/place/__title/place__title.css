@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   display: grid;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -22,6 +21,6 @@
   .place__title {
     font-size: 32px;
     line-height: 109%;
-    padding: 0 24px;
+    padding: 0 16px;
   }
 }

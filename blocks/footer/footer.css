@@ -1,6 +1,6 @@
 .footer {
   margin: 0;
-  padding: 82px 0 0;
+  padding: 92px 0 0;
   grid-area: footer;
   display: flex;
   flex-direction: row;
@@ -24,7 +24,7 @@
   .footer {
     flex-direction: column;
     justify-content: flex-start;
-    gap: 32px;
+    gap: 48px;
     padding: 64px 16px 0;
   }
 }

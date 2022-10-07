@@ -1,6 +1,5 @@
 .cover__title {
   display: flex;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -12,7 +11,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 793px) {
+@media screen and (max-width: 505px) {
   .cover__title {
     font-size: 32px;
     line-height: 109%;

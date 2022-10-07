@@ -2,15 +2,8 @@
   display: grid;
   grid-area: places;
   margin: 0;
-  padding: 0 0 102px;
+  padding: 92px 0 92px;
   gap: 80px;
-}
-
-@media screen and (max-width: 768px) {
-  .places {
-    gap: 73px;
-    padding: 88px 0 92px;
-  }
 }
 
 @media screen and (max-width: 768px) {

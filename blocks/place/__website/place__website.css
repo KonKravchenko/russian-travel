@@ -5,6 +5,7 @@
   flex-direction: column;
   align-self: flex-end;
   justify-self: start;
+  gap: 12px;
 }
 
 @media screen and (max-width: 320px) {

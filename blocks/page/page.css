@@ -23,8 +23,14 @@
   justify-self: center;
 }
 
-@media screen and (min-width:1px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .page {
     padding: 28px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding: 16px 0 24px;
   }
 }

@@ -12,7 +12,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__link/_underline/header__link_underline.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
 
 
 /*--Путешествия по России--*/
@@ -28,7 +28,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-@import url(../blocks/intro/__list-item/_bold/intro__list-item_bold.css);
+@import url(../blocks/intro/__bold/intro__bold.css);
 
 /*--Фотографии--*/
 @import url(../blocks/photo-grid/photo-grid.css);

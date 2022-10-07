@@ -12,9 +12,6 @@
   grid-auto-columns: minmax(min-content, max-content);
 }
 
-
-
-
 @media screen and (min-width: 1279px) {
   .photo-grid__list {
     max-width: 1280px;
@@ -34,7 +31,7 @@
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 608px) {
+@media screen and (max-width: 608px) {
   .photo-grid {
     gap: 12px;
   }
