@@ -32,7 +32,14 @@
 }
 
 @media screen and (max-width: 608px) {
-  .photo-grid {
+  .photo-grid__list {
+    grid-template-columns: minmax(min-content, max-content);
     gap: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__list {
+    grid-template-columns: minmax(min-content, 288px);
   }
 }

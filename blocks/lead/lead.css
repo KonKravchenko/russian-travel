@@ -13,14 +13,13 @@
   .lead {
     grid-column: 1/4;
     max-width: 928px;
-    padding: 70px 0 0;
+    padding: 48px 0 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
     max-width: 768px;
-    padding: 48px 0 0;
   }
 }
 
